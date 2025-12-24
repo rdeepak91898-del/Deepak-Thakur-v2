@@ -1,5 +1,25 @@
-[
-    {
+{
+  "dialog_config": {
+    "title": "Premium Deepak Thakur Login ",
+    "subtitle": "Please enter your credentials or contact the administrator to activate your subscription",
+    "background_color_hex": "#FFFFFF",
+    "profile_image_url": "https://i.imgur.com/Q09UR7w.png",
+    "button_login_text": "Login",
+    "button_contact_text": "Admin Contact",
+    "admin_contact_url": "https://sorts.pro/ESBi3L"
+  },
+  "status_config": {
+    "maintenance_enabled": false,
+    "maintenance_message": "The server is currently undergoing scheduled maintenance. Please check back soon!",
+    "force_show_enabled": false,
+    "remote_check_interval_ms": 30000,
+    "dialog_show_interval_ms": 7200000,
+    "auth_success_toast": "Login successful! Welcome to the premium features.",
+    "auth_expired_toast": "Subscription expired. Please renew it from admin.",
+    "auth_invalid_toast": "Invalid Username, Password, or Device ID."
+  },
+  "users": [
+            {
         "device_id": "device123",
         "username": "user1",
         "password": "pass123",
@@ -20,4 +40,5 @@
         "expirydate": "25-12-2025",
         "Allowoffline": false
     }
-]
+  ]
+}
