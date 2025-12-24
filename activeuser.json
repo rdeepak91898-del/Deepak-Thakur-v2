@@ -12,5 +12,12 @@
         "password": "Thakur",
         "expirydate": "25-12-2025",
         "Allowoffline": false
+    },
+    {
+        "device_id": "74d325fd6c16df21",
+        "username": "Deepak",
+        "password": "Thakur",
+        "expirydate": "25-12-2025",
+        "Allowoffline": false
     }
 ]
